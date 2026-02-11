@@ -4,6 +4,8 @@ def funcaoPrincipal():
 
     if(opcaoEscolhida == 1):
         funcaoSoma()
+    elif(opcaoEscolhida == 2):
+        funcaoSubtracao()
     
 
 def funcaoSoma():
@@ -11,6 +13,15 @@ def funcaoSoma():
     input2 = int(input("Digite o segundo número\n"))
     
     resultado = input1 + input2
+
+    print("O resultado da soma entre os dois números é " + str(resultado) + "." )
+
+
+def funcaoSubtracao():
+    input1 = int(input("Digite o primeiro número\n"))
+    input2 = int(input("Digite o segundo número\n"))
+    
+    resultado = input1 - input2
 
     print("O resultado da soma entre os dois números é " + str(resultado) + "." )
 
