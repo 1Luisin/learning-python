@@ -30,3 +30,10 @@ acoes = ["andar", "correr", "caminhar"]
 x, y, z = acoes #unpacking 
 
 print (x,y,z)
+
+
+def minhafuncao(): #função em python
+        print("função básica")
+        
+
+print(minhafuncao)
