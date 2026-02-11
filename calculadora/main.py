@@ -17,7 +17,7 @@ def funcaoPrincipal():
 def funcaoSoma():
     input1 = int(input("Digite o primeiro número\n"))
     input2 = int(input("Digite o segundo número\n"))
-        
+
     resultado = input1 + input2
 
     print("O resultado da soma entre os dois números é " + str(resultado) + "." )
@@ -50,3 +50,4 @@ def funcaoDivisao():
 
 
 funcaoPrincipal()
+
