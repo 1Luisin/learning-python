@@ -6,7 +6,7 @@ def limparConsole():
 
 def funcaoPrincipal():
     
-    opcaoEscolhida = int(input("Digite qual modo você deseja:" + "\n1 - Soma"+ "\n2 - Subtração"+ "\n3 - Multiplicação"+ "\n4 - Divisão\n"))
+    opcaoEscolhida = int(input("Digite qual modo você deseja:" + "\n1 - Soma"+ "\n2 - Subtração"+ "\n3 - Multiplicação"+ "\n4 - Divisão" + "\n5 - Sair\n"))
 
     if(opcaoEscolhida == 1):
         funcaoSoma()
@@ -16,6 +16,8 @@ def funcaoPrincipal():
         funcaoMultiplicacao()
     elif(opcaoEscolhida == 4):
         funcaoDivisao()
+    elif(opcaoEscolhida == 5):
+        exit()
     else:
         limparConsole()
         print("Opção não encontrada, tente novamente.")
