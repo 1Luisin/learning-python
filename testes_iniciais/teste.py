@@ -1,3 +1,5 @@
+
+
 fruta1, fruta2, fruta3 = "banana","maça","mexerica"
 
 frutas = ["coco", "abacate", "mamão"]
