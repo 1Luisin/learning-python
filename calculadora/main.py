@@ -1,5 +1,18 @@
 def funcaoPrincipal():
     
-    opcaoEscolhida = int(input("Digite qual modo você deseja:" + "\n1 - Soma"+ "\n2 - Subtração"+ "\n3 - Multiplicação"+ "\n4 - Divisão"))
+    opcaoEscolhida = int(input("Digite qual modo você deseja:" + "\n1 - Soma"+ "\n2 - Subtração"+ "\n3 - Multiplicação"+ "\n4 - Divisão\n"))
+
+    if(opcaoEscolhida == 1):
+        funcaoSoma()
     
-        
+
+def funcaoSoma():
+    input1 = int(input("Digite o primeiro número\n"))
+    input2 = int(input("Digite o segundo número\n"))
+    
+    resultado = input1 + input2
+
+    print("O resultado da soma entre os dois números é " + str(resultado) + "." )
+
+
+funcaoPrincipal()
