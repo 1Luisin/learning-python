@@ -5,7 +5,7 @@ def limparConsole():
     os.system(comando)
 
 def funcaoPrincipal():
-    
+        
     opcaoEscolhida = int(input("Digite qual modo você deseja:" + "\n1 - Soma"+ "\n2 - Subtração"+ "\n3 - Multiplicação"+ "\n4 - Divisão" + "\n5 - Sair\n"))
 
     if(opcaoEscolhida == 1):
